@@ -1,0 +1,51 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.wrapper {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+.item {
+  display: table;
+  font-size: 20px;
+  width: 100%;
+  margin: 4px;
+  padding: 4px;
+  border-bottom: 1px solid black;
+}
+
+.primary {
+  color: white;
+  font-size: 20px;
+  background-color: #369;
+  border: 0;
+  border-radius: 6px;
+}
+
+.panel {
+  position: relative;
+  font-size: 20px;
+  top: 90px;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid black;
+}
